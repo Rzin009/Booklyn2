@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato</title>
+<link rel="stylesheet" href="/css/contato.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h1>Booklyn</h1>
+        <p>Um encontro para aprender, compartilhar e inspirar.</p>
+    </div>
+    <nav><ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/evento.html">Evento</a></li>
+        <li><a class="ativo" href="/pages/contato.html">Contato</a></li>
+    </ul></nav>
+</header>
+
+<main>
+<section class="contato">
+    <div class="contato-info">
+        <span class="etiqueta">FALE CONOSCO</span>
+        <h2>Fale com a organização</h2>
+        <p>Tem alguma dúvida sobre o evento? Envie uma mensagem.</p>
+        <div class="dados">
+            <p><strong>contato@profdeborapaulo.com</strong></p>
+            <p><strong>(11) 99999-9999</strong></p>
+            <p> <strong>Evento presencial</strong></p>
+        </div>
+      
+    </div>
+
+    <form id="formContato">
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" placeholder="Seu nome" required>
+
+        <label for="email">E-mail</label>
+        <input id="email" type="email" placeholder="Seu e-mail" required>
+
+        <label for="assunto">Assunto</label>
+        <input id="assunto" type="text" placeholder="Assunto" required>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" rows="6" placeholder="Digite sua mensagem" required></textarea>
+
+        <button class="btn" type="submit">Enviar mensagem</button>
+        <p id="resposta"></p>
+    </form>
+</section>
+</main>
+
+<footer>
+    <p>Booklyn</p>
+</footer>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
