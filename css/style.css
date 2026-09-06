@@ -20,7 +20,7 @@
 
 body {
     /* background-image: url('/assets/bg-contador.png'); */
-    background-image: url('/assets/encontro.avif');
+    background-image: url('assets/encontro.avif');
 
     background-size: cover;
     background-position: center;
