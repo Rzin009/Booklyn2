@@ -180,12 +180,32 @@ nav a.ativo {
 }
 
 
+
+
 .voltar {
-
-    text-align: center;
-
-    padding-bottom: 60px;
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 10px 22px;
+    background-color: #A67C52;
+    color: #FFFDF9;
+    border: 2px solid #A67C52;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
 }
+
+.voltar:hover {
+    background-color: #5E4B3C;
+    border-color: #5E4B3C;
+    color: #FFFDF9;
+    transform: translateY(-3px);
+}
+
+
+
+
 
 /* Footer */
 
@@ -232,7 +252,7 @@ footer {
 }
 
 
-/* CARDS */
+/* Cards */
 
 .participantes {
     text-align: center;
@@ -286,13 +306,33 @@ footer {
     box-shadow: 0 8px 20px #00000030; 
 }
 
-/* CELULAR */
 
-@media (max-width: 700px) {
+/* Galeria */
 
-    .cards {
-        flex-direction: column;
-        align-items: center;
-    }
+.galeria {
+    text-align: center;
+    padding: 40px 20px;
+}
 
+.galeria h2 {
+    margin-bottom: 25px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.imagens img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.imagens img:hover {
+    transform: scale(1.05);
 }
