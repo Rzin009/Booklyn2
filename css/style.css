@@ -68,7 +68,7 @@ h3 {
     font-size: calc(10px + 5vw);
     color: whitesmoke;
     text-shadow: 0 0 10px #000000;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .countdown {
@@ -84,14 +84,14 @@ h3 {
 .countdown h1 {
     font-size: calc(10px + 8vw);
     color: whitesmoke;
-    text-shadow: 0 0 30px #17225e;
+    text-shadow: 0 0 20px #17225e;
 
 }
 
 .countdown p {
     font-size: calc(10px + 1vw);
     color: whitesmoke;
-    text-shadow: 0 0 30px #17225e;
+    text-shadow: 0 0 20px #17225e;
 }
 
 header { 
