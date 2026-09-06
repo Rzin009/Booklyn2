@@ -1,4 +1,3 @@
-
 /* Geral */
 
 * {
@@ -245,4 +244,47 @@ footer {
         font-size: 13px;
     }
 }
+
+
+/* Redes */
+
+.redes-sociais {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.redes-sociais h2 {
+    margin-bottom: 10px;
+}
+
+.redes-sociais p {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #A67C52;
+    color: #FFFDF9;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.social:hover {
+    transform: translateY(-5px);
+    background-color: #5E4B3C;
+}
+
+
 
